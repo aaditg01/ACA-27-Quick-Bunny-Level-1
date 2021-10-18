@@ -38,33 +38,33 @@ function preload() {
     }
     if(bunny.isTouching(obs1)){
       text("YOU LOSE!",200,200)
-      player.x=30
-      player.y=30
+      bunny.x=40
+      bunny.y=550
     }
     if(bunny.isTouching(obs2)){
       text("YOU LOSE!",200,200)
-      player.x=30
-      player.y=30
+      bunny.x=40
+      bunny.y=550
     }
     if(bunny.isTouching(obs3)){
       text("YOU LOSE!",200,200)
-      player.x=30
-      player.y=30
+      bunny.x=40
+      bunny.y=550
     }
     if(bunny.isTouching(obs4)){
       text("YOU LOSE!",200,200)
-      player.x=30
-      player.y=30
+      bunny.x=40
+      bunny.y=550
     }
     if(bunny.isTouching(obs5)){
       text("YOU LOSE!",200,200)
-      player.x=30
-      player.y=30
+      bunny.x=40
+      bunny.y=550
     }
     if(bunny.isTouching(obs6)){
       text("YOU LOSE!",200,200)
-      player.x=30
-      player.y=30
+      player.x=40
+      player.y=550
     }
     bunny.shapeColor="white";
     carrot.shapeColor="pink";
